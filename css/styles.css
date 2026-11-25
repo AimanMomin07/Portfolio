@@ -208,6 +208,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.5rem 3rem;display:
 .exp-list{list-style:none;display:flex;flex-direction:column;gap:1rem}
 .exp-list li{display:flex;gap:1rem;font-size:.92rem;color:var(--tm);line-height:1.7;font-weight:300}
 .exp-list li::before{content:'?';color:var(--c);flex-shrink:0;margin-top:.1rem}
+.exp-list a{color:var(--c);text-decoration:none}
+.exp-list a:hover{text-decoration:underline}
 
 /* CONTACT */
 .contact-wrap{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:start}
